@@ -3,56 +3,48 @@
 }
 
 /*-----------------HEADER------------------*/
-header {
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c;
+}
+
+#scrool{
+  margin-top: 60px;
+}
+
+
+
+/*--------------FIN DU HEADER---------------*/
+.bg-1 {
   background-image: url("../img/keyboard.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 700px;
-
-}
-
-.title {
-  text-align: center;
-  width: 100%;
-  height: 400px;
-  margin-bottom: 100px;
-  top: 25%;
-  position: relative;
-}
-.git {
-  position: absolute;
-  left: 5%;
-  top: 5%;
-}
-.git img {
-  width: 150px;
-}
-.linkedin {
-  position: absolute;
-  right: 5%;
-  top: 5%;
-
-}
-.linkedin img {
-  height: 61px;
+  background-size: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-position: middle;
 }
 
 h1 {
-  color:#bfbfbf;
   font-weight: 500;
   font-size: 6em;
   font-family: apple_garamond;
   margin-bottom: 30px;
-  text-shadow: 1px  1px 1px white;
   margin-top: 0px;
+  color: #e7e7e7;
 }
 
 h2 {
-  color: #bfbfbf;
   font-size: 40px;
   font-family: apple_garamond;
-
+  color: #e7e7e7;
 }
 
 
