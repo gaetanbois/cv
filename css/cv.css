@@ -21,12 +21,14 @@
 }
 
 #scrool{
-  margin-top: 60px;
+  margin-top: 90px;
+  margin-bottom: 40px;
 }
 
 
 
 /*--------------FIN DU HEADER---------------*/
+
 .bg-1 {
   background-image: url("../img/keyboard.jpg");
   background-size: cover;
@@ -34,6 +36,9 @@
   padding-bottom: 70px;
   background-position:center;
   background-repeat: no-repeat;
+}
+.bg-2 {
+  background-color: #efefef;
 }
 
 h1 {
@@ -50,20 +55,45 @@ h2 {
   color: #e7e7e7;
 }
 
+h3 {
+  font-family: quicksand;
+  font-style: bold;
+  font-size: 5em;
+  margin-top: 65px;
+}
 .placeholder{
   height: 100px;
 }
 
-@media only screen and (max-width : 640px) {
-/* Styles */
+#picture img {
+  height: 300px;
+  border-radius: 5px;
+
+}
+#picture {
+  float: center;
+
+  margin-bottom: 50px;
+}
+@media (max-width : 640px) {
     h1 {font-size: 35px;}
     h2 {font-size:35px;}
-    .bg1 {background-image: url("../img/keyboard-vert.png");}
 }
+
 @font-face {
 font-family: night_still_comes ;
 src: url("../fonts/NightStillComes_bold_final_sample.otf");
 src: url("../fonts/NightStillComes_bolditalic_final_sample.otf");
 src: url("../fonts/NightStillComes_italic_final_sample.otf");
 src: url("../fonts/NightStillComes_mine_final_sample.otf");
+}
+@font-face {
+font-family: quicksand ;
+src: url("../fonts/Quicksand_Bold_Oblique.otf");
+src: url("../fonts/Quicksand_Bold.otf");
+src: url("../fonts/Quicksand_Book_Oblique.otf");
+src: url("../fonts/Quicksand_Book.otf");
+src: url("../fonts/Quicksand_Dash.otf");
+src: url("../fonts/Quicksand_Light_Oblique.otf");
+src: url("../fonts/Quicksand_Light.otf");
 }
