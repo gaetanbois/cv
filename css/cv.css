@@ -11,6 +11,9 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 }
 
 .navbar-nav li a:hover {
@@ -26,16 +29,16 @@
 /*--------------FIN DU HEADER---------------*/
 .bg-1 {
   background-image: url("../img/keyboard.jpg");
-  background-size: auto;
-  padding-top: 70px;
+  background-size: cover;
+  padding-top: 200px;
   padding-bottom: 70px;
-  background-position: middle;
+  background-position:center;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  font-weight: 500;
   font-size: 6em;
-  font-family: apple_garamond;
+  font-family: night_still_comes;
   margin-bottom: 30px;
   margin-top: 0px;
   color: #e7e7e7;
@@ -43,19 +46,24 @@ h1 {
 
 h2 {
   font-size: 40px;
-  font-family: apple_garamond;
+  font-family: night_still_comes;
   color: #e7e7e7;
 }
 
+.placeholder{
+  height: 100px;
+}
 
-
+@media only screen and (max-width : 640px) {
+/* Styles */
+    h1 {font-size: 35px;}
+    h2 {font-size:35px;}
+    .bg1 {background-image: url("../img/keyboard-vert.png");}
+}
 @font-face {
-font-family: apple_garamond;
-src: url("../fonts/apple_garamond/AppleGaramond-Bold.ttf");
-src: url("../fonts/apple_garamond/AppleGaramond-BoldItalic.ttf");
-src: url("../fonts/apple_garamond/AppleGaramond-Italic.ttf");
-src: url("../fonts/apple_garamond/AppleGaramond-Ligth.ttf");
-src: url("../fonts/apple_garamond/AppleGaramond-LigthItalic.ttf");
-src: url("../fonts/apple_garamond/AppleGaramond.ttf");
-
+font-family: night_still_comes ;
+src: url("../fonts/NightStillComes_bold_final_sample.otf");
+src: url("../fonts/NightStillComes_bolditalic_final_sample.otf");
+src: url("../fonts/NightStillComes_italic_final_sample.otf");
+src: url("../fonts/NightStillComes_mine_final_sample.otf");
 }
