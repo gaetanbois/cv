@@ -28,7 +28,9 @@
 
 
 /*--------------FIN DU HEADER---------------*/
-
+.aboutme {
+  margin-right: px;
+}
 .bg-1 {
   background-image: url("../img/keyboard.jpg");
   background-size: cover;
@@ -38,7 +40,7 @@
   background-repeat: no-repeat;
 }
 .bg-2 {
-  background-color: #efefef;
+  background-color: #999D9D;
 }
 
 h1 {
@@ -56,7 +58,7 @@ h2 {
 }
 
 h3 {
-  font-family: quicksand;
+  font-family: caviar_dreams;
   font-style: bold;
   font-size: 5em;
   margin-top: 65px;
@@ -68,12 +70,22 @@ h3 {
 #picture img {
   height: 300px;
   border-radius: 5px;
+  margin-top: 65px;
 
 }
 #picture {
   float: center;
 
   margin-bottom: 50px;
+}
+
+p {
+  font-family: quicksand;
+  font-size: 2em;
+  font-style: normal;
+  background-color: #efefef;
+  border-radius: 3px;
+
 }
 @media (max-width : 640px) {
     h1 {font-size: 35px;}
@@ -86,6 +98,13 @@ src: url("../fonts/NightStillComes_bold_final_sample.otf");
 src: url("../fonts/NightStillComes_bolditalic_final_sample.otf");
 src: url("../fonts/NightStillComes_italic_final_sample.otf");
 src: url("../fonts/NightStillComes_mine_final_sample.otf");
+}
+@font-face {
+font-family: caviar_dreams ;
+src: url("../fonts/CaviarDreams_Bold.otf");
+src: url("../fonts/CaviarDreams_BoldItalic.otf");
+src: url("../fonts/CaviarDreams_Italic.otf");
+src: url("../fonts/CaviarDreams.otf");
 }
 @font-face {
 font-family: quicksand ;
