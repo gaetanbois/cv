@@ -31,9 +31,7 @@ html, body{
 
 
 /*--------------FIN DU HEADER---------------*/
-.aboutme {
-  margin-right: px;
-}
+
 .bg-1 {
   background-image: url("../img/keyboard.jpg");
   background-size: cover;
@@ -45,25 +43,29 @@ html, body{
   height: 100%;
 }
 .bg-2 {
-  background-color: #999D9D;
+  background-color: #fa9c1e;
 }
 
 .bg-3 {
   padding: 0;
   margin: 0;
 }
+
+{
+  background-color: #fa9c1e;
+}
 h1 {
   font-size: 6em;
   font-family: night_still_comes;
   margin-bottom: 30px;
   margin-top: 0px;
-  color: #e7e7e7;
+  color: #fa9c1e;
 }
 
 h2 {
   font-size: 40px;
   font-family: night_still_comes;
-  color: #e7e7e7;
+  color: #fa9c1e;
 }
 
 h3 {
@@ -71,9 +73,15 @@ h3 {
   font-style: bold;
   font-size: 5em;
   margin-top: 65px;
+  color: #dddddd;
 }
 h4 {
   margin: 0;
+  padding-top: 65px;
+  font-family: night_still_comes;
+  font-size: 6em;
+  color: #fa9c1e;
+  text-align: center;
 }
 .placeholder{
   height: 100px;
@@ -97,9 +105,13 @@ p {
   font-style: normal;
   border-radius: 3px;
   margin: 0;
+  color: #dddddd;
 
 }
-
+.row {
+  margin: 0;
+  text-align: center;
+}
 .tittle {
   background-image: url("../img/colorful_macbook_keyboard-1280x800.jpg");
   background-attachment: fixed;
