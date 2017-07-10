@@ -51,14 +51,34 @@ html, body{
   margin: 0;
 }
 
+.bg-4 {
+  background-color: #fa9c1e;
+}
+
+.bg-5 {
+  margin-bottom: 45px;
+}
 #comp{
+  margin-bottom: 45px;
+}
+
+#contact {
+  margin-top: 65px;
   margin-bottom: 45px;
 }
 .competence {
   margin-top: 45px;
 }
-.experience {
-  background-color: #fa9c1e;
+
+.cadre {
+  border: 5px double #dddddd;
+  border-radius: 3px;
+  margin-bottom: 45px;
+}
+
+footer {
+  height: 200px;
+  background-color: #bbbbbb;
 }
 h1 {
   font-size: 6em;
@@ -81,16 +101,9 @@ h3 {
   font-size: 5em;
   margin-top: 65px;
   color: #dddddd;
+  text-align: center;
 }
-/*h4 {
-  margin: 0;
-  margin-bottom: 45px;
-  padding-top: 45px;
-  font-family: night_still_comes;
-  font-size: 6em;
-  color: #fa9c1e;
-  text-align: center;*/
-}
+
 h5{
   font-size: 2em;
   margin-top: 20px;
@@ -98,6 +111,26 @@ h5{
   text-align: center;
   font-family: night_still_comes;
   font-style: italic;
+}
+
+h6 {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-family: night_still_comes;
+  font-size: 2.5em;
+  font-style: italic;
+  color: #dddddd;
+  text-align: center;
+}
+
+.paragraphe {
+  font-family: quicksand;
+  font-size: 1.5em;
+  font-style: normal;
+  border-radius: 3px;
+  margin: 0;
+  color: #dddddd;
 }
 .placeholder{
   height: 100px;
@@ -124,11 +157,7 @@ p {
   color: #dddddd;
 }
 
-.prog {
-  border: 5px double #dddddd;
-  border-radius: 3px;
-  margin-bottom: 65px;
-}
+
 .row {
   margin: 0;
   text-align: center;
