@@ -51,7 +51,13 @@ html, body{
   margin: 0;
 }
 
-{
+#comp{
+  margin-bottom: 45px;
+}
+.competence {
+  margin-top: 45px;
+}
+.experience {
   background-color: #fa9c1e;
 }
 h1 {
@@ -62,10 +68,11 @@ h1 {
   color: #fa9c1e;
 }
 
-h2 {
-  font-size: 40px;
+h2 ,h4 {
+  font-size: 5em;
   font-family: night_still_comes;
   color: #fa9c1e;
+  text-align: center;
 }
 
 h3 {
@@ -75,13 +82,22 @@ h3 {
   margin-top: 65px;
   color: #dddddd;
 }
-h4 {
+/*h4 {
   margin: 0;
-  padding-top: 65px;
+  margin-bottom: 45px;
+  padding-top: 45px;
   font-family: night_still_comes;
   font-size: 6em;
   color: #fa9c1e;
+  text-align: center;*/
+}
+h5{
+  font-size: 2em;
+  margin-top: 20px;
+  color: #fa9c1e;
   text-align: center;
+  font-family: night_still_comes;
+  font-style: italic;
 }
 .placeholder{
   height: 100px;
@@ -106,22 +122,21 @@ p {
   border-radius: 3px;
   margin: 0;
   color: #dddddd;
+}
 
+.prog {
+  border: 5px double #dddddd;
+  border-radius: 3px;
+  margin-bottom: 65px;
 }
 .row {
   margin: 0;
   text-align: center;
 }
-.tittle {
-  background-image: url("../img/colorful_macbook_keyboard-1280x800.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position:center;
-  height: 100%;
-}
+
+
 @media (max-width : 640px) {
-    h1 {font-size: 35px;}
-    h2 {font-size:35px;}
+    h1, h2, h3, h4 {font-size: 35px;}
 }
 
 @font-face {
