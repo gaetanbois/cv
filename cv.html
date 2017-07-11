@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CV Bois Gaetan</title>
+  <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV Gaëtan Bois</title>
   <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
-  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-  <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="cv.js"></script>
-  <link rel="stylesheet" href="css/cv.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link href="css/cv.css" rel="stylesheet"/>
+
 </head>
 <body>
   <header>
@@ -28,27 +28,27 @@
        </div>
        <div class="collapse navbar-collapse" id="myNavbar">
          <ul class="nav navbar-nav navbar-right">
-           <li><a class="anchorLink" href="#apropos">A PROPOS</a></li>
-           <li><a class="anchorLink" href="#competence">COMPETENCE</a></li>
-           <li><a class="anchorLink" href="#xp">EXPERIENCE & FORMATION</a></li>
-           <li><a class="anchorLink" href="#contact">CONTACT</a></li>
-           <li><a href="#">PDF</a></li>
+           <li><a  href="#apropos" id="link1">A PROPOS</a></li>
+           <li><a  href="#competence" id="link2">COMPETENCE</a></li>
+           <li><a  href="#xp" id="link3">EXPERIENCE & FORMATION</a></li>
+           <li><a  href="#contact" id="link4">CONTACT</a></li>
+           <li><a  href="">PDF</a></li>
          </ul>
        </div>
      </div>
     </nav>
   </header>
+
     <div class="bg-1">
       <div class="container-fluid text-center">
       <h1>Bonjour,</br>
         Je suis Bois Gaëtan</h1>
       <h2>Développeur Web Mobile</h2>
       <div id="scrool">
-      <a href="#apropos"><img src="img/iconmonstr-arrow-65-64.png" alt=""></a>
+      <img src="img/iconmonstr-arrow-65-64.png" alt=""></a>
       </div>
     </div>
   </div>
-  <a name="apropos"></a>
   <div class="container-fluid bg-2 text-center">
     <div class="row">
       <div class="col-sm-4">
@@ -56,12 +56,13 @@
           <img class="img-thumbnail" src="img/Gaetan.Bois1.jpg" alt="gaetanbois">
         </div>
       </div>
-      <div class="col-sm-7 col-sm-1-offset">
+      <div id="apropos" class="col-sm-7 col-sm-1-offset">
         <h3>A propos</h3>
         <div class="aboutme">
           <p>Suite à ma formation intensive, je souhaite continuer à apprendre, me perfectionner et apporter mes connaissances en tant que développeur web.</br>
           Serieux, curieux et travailleur je me tiens informé grâce à une veille constante. </p>
           <a name="competence"></a>
+          <div id=competence> </div>
         </div>
       </div>
     </div>
@@ -94,12 +95,13 @@
             <h5>Autres</h5>
             <img src="img/logo/index.png" alt="sass"></br>
             <img src="img/logo/github.png" alt="git">
+            <div id=xp> </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <a name="xp"></a>
+
   <div class="container-fluid bg-4 text-align">
     <div class="experience">
       <h3>Expérience et Formation</h3>
@@ -126,12 +128,12 @@
       </div>
     </div>
   </div>
-  <a name="contact"></a>
+  <div id="contact"></div>
     <div class="container-fluid bg-5 text-align">
       <h4 id="contact">Contact</h4>
       <div class="row">
         <div class="col-sm-3">
-          <img src="img/logo/phonelogo.png" alt="">
+          <a title="+33642836273" data-toggle="tooltip" data-placement="top"><img src="img/logo/phonelogo.png" alt=""></a>
         </div>
         <div class="col-sm-3">
           <a href="mailto:g.bois17@gmail.com"><img src="img/logo/iconmonstr-email-13-64.png" alt="mail"></a>
@@ -146,7 +148,12 @@
     </div>
 
 
+
   <footer></footer>
 
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/cv.js"></script>
 </body>
 </html>
