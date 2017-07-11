@@ -88,8 +88,8 @@ h1 {
   color: #fa9c1e;
 }
 
-h2 ,h4 {
-  font-size: 5em;
+h2 {
+  font-size: 3em;
   font-family: night_still_comes;
   color: #fa9c1e;
   text-align: center;
@@ -103,7 +103,12 @@ h3 {
   color: #dddddd;
   text-align: center;
 }
-
+h4 {
+  font-size: 5em;
+  font-family: night_still_comes;
+  color: #fa9c1e;
+  text-align: center;
+}
 h5{
   font-size: 2em;
   margin-top: 20px;
@@ -165,7 +170,8 @@ p {
 
 
 @media (max-width : 640px) {
-    h1, h2, h3, h4 {font-size: 35px;}
+    h2, h3, h4 {font-size: 35px;}
+    h1 {font-size: 45px;}
 }
 
 @font-face {
