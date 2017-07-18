@@ -17,15 +17,17 @@ html, body{
     position: fixed;
     z-index: 1000;
     width: 100%;
+
 }
 
 .navbar-nav li a:hover {
     color: #1abc9c;
 }
 
-#scrool{
-  margin-top: 80px;
-  margin-bottom: 40px;
+#apropos{
+  position: absolute;
+  left: 49%;
+  top: 300px;
 }
 
 
@@ -42,7 +44,10 @@ html, body{
   padding-top: 200px;
   padding-bottom: 70px;
   height: 100%;
+  vertical-align: middle;
+  text-align: center;
 }
+
 .bg-2 {
   background-color: #fa9c1e;
 }
@@ -102,8 +107,8 @@ footer {
 h1 {
   font-size: 6em;
   font-family: night_still_comes;
-  margin-bottom: 30px;
-  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-top: 100px;
   color: #fa9c1e;
 }
 
@@ -168,7 +173,6 @@ h6 {
 }
 #picture {
   float: center;
-
   margin-bottom: 50px;
 }
 
