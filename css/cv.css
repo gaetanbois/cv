@@ -24,16 +24,7 @@ html, body{
     color: #1abc9c;
 }
 
-#apropos{
-  position: absolute;
-  left: 49%;
-  top: 300px;
-}
-
-
-
 /*--------------FIN DU HEADER---------------*/
-
 
 .bg-1 {
   background-image: url("../img/keyboard.jpg");
@@ -41,7 +32,7 @@ html, body{
   background-position:center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-top: 200px;
+  padding-top: 300px;
   padding-bottom: 70px;
   height: 100%;
   vertical-align: middle;
@@ -80,6 +71,26 @@ html, body{
   padding-bottom: 45px;
 }
 
+.cadre {
+  border: 5px double #dddddd;
+  border-radius: 3px;
+  margin-bottom: 45px;
+}
+
+.console-container {
+
+  font-family:Khula;
+  font-size:6em;
+  color:#dddddd;
+}
+
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
 #comp{
   margin-bottom: 45px;
 }
@@ -94,12 +105,6 @@ html, body{
   margin-top: 45px;
 }
 
-.cadre {
-  border: 5px double #dddddd;
-  border-radius: 3px;
-  margin-bottom: 45px;
-}
-
 footer {
   height: 200px;
   background-color: #bbbbbb;
@@ -108,7 +113,7 @@ h1 {
   font-size: 6em;
   font-family: night_still_comes;
   margin-bottom: 100px;
-  margin-top: 100px;
+  margin-top: 80px;
   color: #fa9c1e;
 }
 
@@ -197,10 +202,68 @@ p {
   padding: 0;
 }
 
-
 .row {
   margin: 0;
   text-align: center;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fa9c1e;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
 }
 
 ul {
@@ -211,6 +274,8 @@ ul {
 @media (max-width : 640px) {
     h2, h3, h4 {font-size: 35px;}
     h1 {font-size: 45px;}
+    .console-container {font-size: 4em;}
+    .bg-1 {padding-top: 200px;}
 }
 
 @font-face {
