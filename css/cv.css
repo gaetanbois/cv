@@ -117,13 +117,6 @@ h1 {
   color: #fa9c1e;
 }
 
-h2 {
-  font-size: 3em;
-  font-family: night_still_comes;
-  color: #fa9c1e;
-  text-align: center;
-}
-
 h3 {
   font-family: caviar_dreams;
   font-style: bold;
@@ -184,13 +177,8 @@ h6 {
 .passion img {
 	border: 20px solid #bbbbbb;
 	border-radius: 30px;
-	transition: all 2s; /* transition when the mouse over */
 }
-.passion img:hover{
-  border-color: #bbbbbb;
-	transform: rotate(720deg);
-	border-radius: 50%;
-}
+
 
 p {
   font-family: quicksand;
@@ -272,10 +260,26 @@ ul {
 }
 
 @media (max-width : 640px) {
-    h2, h3, h4 {font-size: 35px;}
-    h1 {font-size: 45px;}
-    .console-container {font-size: 4em;}
-    .bg-1 {padding-top: 200px;}
+    h2, h3, h4 {
+      font-size: 35px;
+    }
+    h1 {
+      font-size: 45px;
+    }
+    .console-container {
+      font-size: 4em;
+    }
+    .bg-1 {
+      padding-top: 200px;
+    }
+    .bg-7 img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .bg-6 img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
 }
 
 @font-face {
