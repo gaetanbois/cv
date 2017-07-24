@@ -98,17 +98,13 @@ html, body{
 #cont {
   margin-top: 65px;
   margin-bottom: 45px;
-  color: #dddddd;
+    color: #dddddd;
 }
 
 .competence {
   margin-top: 45px;
 }
 
-footer {
-  height: 200px;
-  background-color: #bbbbbb;
-}
 h1 {
   font-size: 6em;
   font-family: night_still_comes;
@@ -175,8 +171,10 @@ h6 {
 }
 
 .passion img {
-	border: 20px solid #bbbbbb;
+	border: 20px solid #dddddd;
 	border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -232,6 +230,8 @@ p {
     border-width: 0px 0 2px 2px;
 }
 
+
+
 @keyframes bounce {
   0%,
   100%,
@@ -280,7 +280,13 @@ ul {
       margin-top: 10px;
       margin-bottom: 10px;
     }
+
 }
+
+@media (max-width : 640px) {
+  .bg-6 h3 {
+  display: none;
+  }
 
 @font-face {
 font-family: night_still_comes ;
