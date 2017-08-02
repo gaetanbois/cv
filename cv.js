@@ -35,9 +35,9 @@ $(function() {
     });
 });
 
-  $(function() {
-    $('[data-toggle="tooltip"]').tooltip();
-  });
+  // $(function() {
+  //   $('[data-toggle="tooltip"]').tooltip();
+  // });
 
 // function([string1, string2],target id,[color1,color2])
  consoleText(['Bois Gaëtan', 'Développeur Web Mobile'], 'text',['#fa9c1e','#fa9c1e']);
